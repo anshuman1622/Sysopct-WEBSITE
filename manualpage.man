@@ -1,0 +1,24 @@
+.TH SYSOPCTL 1 "December 2024" "sysopctl v0.1.0" "User Commands"
+.SH NAME
+sysopctl \- Manage system resources and tasks.
+.SH SYNOPSIS
+sysopctl [command] [options]
+.SH DESCRIPTION
+A command-line tool for managing system services, monitoring processes, and analyzing logs.
+.SH COMMANDS
+.TP
+\fBservice list\fR
+List all active services.
+.TP
+\fBservice start <name>\fR
+Start a specified service.
+.TP
+\fBservice stop <name>\fR
+Stop a specified service.
+.TP
+\fBsystem load\fR
+Display system load averages.
+.TP
+\fBdisk usage\fR
+Show disk usage by partition.
+...
